@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import { bus } from "../main";
+
 export default {
   name: 'Footer',
    props: {
@@ -21,6 +23,11 @@ export default {
       return {
        
      }
+  },
+  created() {
+      bus.$on('titleChanged', (data) => {
+          this.title = data;
+      })
   }
   
 }

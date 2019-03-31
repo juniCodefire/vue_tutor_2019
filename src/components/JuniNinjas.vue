@@ -31,26 +31,26 @@ export default {
   },
   //Lifecycle hooks
  
-  beforeCreate(){
-      alert('beforeCreate');
-  },
-  created(){
-      alert('created')
-  },
-  //Manipulate the DOM before it loads
-  beforeMount(){
-      alert('beforeMount');
-  },
-  mounted(){
-      alert('mounted');
-  },
- //Manipulate the DOM before it Update
-  beforeUpdate(){
-      alert('beforeUpdate');
-  },
-  updated(){
-      alert('updated');
-  }
+//   beforeCreate(){
+//       alert('beforeCreate');
+//   },
+//   created(){
+//       alert('created')
+//   },
+//   //Manipulate the DOM before it loads
+//   beforeMount(){
+//       alert('beforeMount');
+//   },
+//   mounted(){
+//       alert('mounted');
+//   },
+//  //Manipulate the DOM before it Update
+//   beforeUpdate(){
+//       alert('beforeUpdate');
+//   },
+//   updated(){
+//       alert('updated');
+//   }
 
 }
 </script>

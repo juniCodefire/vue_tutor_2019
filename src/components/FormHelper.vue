@@ -13,13 +13,14 @@
        <div id="form-controls">
          <slot name="form-controls"></slot>
        </div>
-       <div id="useful-links"></div>
+       <div id="useful-links">
          <ul>
            <li><a href="#">Link 1</a></li>
            <li><a href="#">Link 2</a></li>
            <li><a href="#">Link 3</a></li>
            <li><a href="#">Link 4</a></li>
          </ul>
+      </div>
      </form>
    </div>
 </template>
@@ -58,6 +59,7 @@ form {
 #useful-links li {
   display:inline-block;
   margin-right: 10px;
+  list-style: none;
 }
 form > div {
 padding:20px;
